@@ -43,9 +43,6 @@
     transform: translateY(25%);
 }
 
-.card {
-    opacity: 1;
-}
 
 #overview {
     width: 95%;
@@ -63,8 +60,8 @@
 
 #what-is-tbm {
     width: 95%;
-    margin: 30px auto;
     padding: 10px;
+    margin: 30px auto;
     border-radius: 11px;
     background-color: rgb(48, 144, 246);
 }
@@ -112,5 +109,10 @@
 }
 
 #footer {
-    background-color: rgb(148, 148, 148)!important;
+     background-color: rgb(148, 148, 148)!important;
 }
+
+footer {
+    width: 100%;
+}
+
