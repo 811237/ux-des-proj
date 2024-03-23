@@ -3,17 +3,20 @@
     transform: translateY(0%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .card {
-        animation: appear 1s 1;
-    }
-    
+@keyframes button-grow {
+    from{scale: 100%;}
+    to{scale: 101%;}
 }
 
 /*this aint workin*/
 
-.navbar {
+.navbar {    
     background-color: rgba(243, 189, 29, 0.929);
+}
+
+button:hover {
+    animation: button-grow .1s ease-in-out;
+    scale: 101%;
 }
 
 #bad-nav {
@@ -43,6 +46,9 @@
     transform: translateY(25%);
 }
 
+.italics {
+    font-style: italic!important;
+}
 
 #overview {
     width: 95%;
@@ -84,15 +90,6 @@
     margin: 8px;
     width: 95%;
     font-weight: 600;
-}
-
-.fade-in-section {
-    opacity: 0;
-    transition: opacity 5s ease;
-}
-
-.is-visible {
-    opacity: 1;
 }
 
 .example {
