@@ -25,6 +25,12 @@ button:hover {
     font-size: 20px;
 }
 
+#bad-nav-good-ex {
+    transform: translateX(-8%) translateY(-62%);
+    color: black;
+    font-size: 20px;
+}
+
 #good-nav {
     background-color: orange;
     border: 4px solid rgb(218, 135, 2);
@@ -103,6 +109,13 @@ button:hover {
     margin: 20px;
     padding: 0;
     text-align: center;
+}
+
+#good-nav-good-ex {
+    background-color: orange;
+    border: 4px solid rgb(218, 135, 2);
+    border-radius: 11px;
+    visibility: hidden;
 }
 
 #footer {
